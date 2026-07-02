@@ -1,0 +1,23 @@
+{
+  "reference_structure": "neumark",
+  "raw_gap_logpts": 0.03495449718283261,
+  "explained_logpts": -0.034928474465370785,
+  "unexplained_logpts": 0.06988297164817167,
+  "explained_pct_of_gap": -99.92555259105657,
+  "unexplained_pct_of_gap": 199.9255525909658,
+  "bootstrap_95ci": {
+    "explained_ci": [
+      -0.056300327149047126,
+      -0.013950128100569633
+    ],
+    "unexplained_ci": [
+      0.03663884346928632,
+      0.10470909583093335
+    ]
+  },
+  "threefold": {
+    "endowments": -0.021341161439598334,
+    "coefficients": 0.07083710735689841,
+    "interaction": -0.01454144873449923
+  }
+}

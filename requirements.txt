@@ -1,0 +1,46 @@
+# DGLC / MRR reproducibility environment
+# ---------------------------------------------------------------------------
+# Versions below are PINNED to the environment in which the canonical numbers
+# (see outputs/gap/CANONICAL_NUMBERS.md) were produced. Install with:
+#     python -m pip install -r requirements.txt
+# Python 3.9-3.12 tested; the gap sub-pipeline (gap01-gap10) needs only the
+# first block. The full main pipeline (s01-s18) additionally needs the second
+# block; several of those packages were NOT installed in the reference
+# environment, so their versions are UNVERIFIED and left unpinned (flagged).
+
+# --- Core: required by the MRR + DGLC gap sub-pipeline (gap01-gap10) ---------
+numpy==1.26.3
+pandas==2.3.3
+scikit-learn==1.6.1
+scipy==1.13.1
+xgboost==2.1.4
+statsmodels==0.14.6
+fairlearn==0.13.0
+shap==0.49.1
+matplotlib==3.9.4
+pyarrow==21.0.0
+openpyxl==3.1.5
+folktables==0.0.12        # fetches ACSIncome at runtime (no raw file shipped)
+joblib==1.5.3
+tqdm==4.68.3
+
+# --- Full main pipeline (s01-s18) only --------------------------------------
+# torch was present in the reproducing environment and IS pinned below.
+# The remaining packages were NOT installed there, so the gap sub-pipeline
+# (the paper's core, verified bit-for-bit) does not need them and their exact
+# versions could not be derived on this machine -- they are left UNPINNED and
+# FLAGGED. Pin them to your own working versions before relying on s02/s04/s05/
+# s08 (those stages were NOT run/verified here; see README).
+#
+# torch: pinned to the reference build (CUDA 11.7). A CPU-only or different-CUDA
+# machine needs a DIFFERENT build -- e.g. `pip install torch==2.0.1` (CPU) or
+# the matching +cuXXX wheel from https://pytorch.org . Required by s05 (DeBERTa)
+# and s09 (tabular DL).
+torch==2.0.1+cu117        # reference build; CPU/other-CUDA users: change this
+transformers              # s05 (DeBERTa table-to-text); UNPINNED - not in ref env
+seaborn                   # s02 (EDA plots); UNPINNED - not in ref env
+optuna                    # s08 (hyperparameter tuning); UNPINNED - not in ref env
+lightgbm                  # s04 model panel; UNPINNED - not in ref env
+catboost                  # s04 model panel; UNPINNED - not in ref env
+interpret                 # s04 EBM (explainable boosting); UNPINNED - not in ref env
+python-docx               # build_docx.py (Word export); UNPINNED - not in ref env

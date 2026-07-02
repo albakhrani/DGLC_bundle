@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software or its methods (MRR, DGLC), please cite the paper below."
+title: "When Bias Lives in the Label: Diagnosing and Correcting Label-Resident Group Gaps, with a Graduate-Employability Case Study"
+type: software
+authors:
+  # Names as they appear on the manuscript. Add ORCIDs / affiliations as
+  # co-authors confirm them before release.
+  - family-names: "Mohammad"
+    given-names: "Saleh Abdul Amir"
+    orcid: "https://orcid.org/0009-0001-7758-4513"
+  - family-names: "Xin"
+    given-names: "Ye"
+  - family-names: "AL-Bakhrani"
+    given-names: "Ali A."
+  - family-names: "Qian"
+    given-names: "Chen"
+  - family-names: "Ayoubi"
+    given-names: "Majid"
+repository-code: "https://github.com/ORG/REPO"   # TODO: set on release
+license: "TODO"                                    # TODO: supervisor to choose (see README)
+version: "0.1.0"
+date-released: "2026-01-01"                        # TODO: set to release date
+# --- Journal reference: fill in after acceptance ---------------------------
+preferred-citation:
+  type: article
+  title: "When Bias Lives in the Label: Diagnosing and Correcting Label-Resident Group Gaps, with a Graduate-Employability Case Study"
+  authors:
+    - family-names: "Mohammad"
+      given-names: "Saleh Abdul Amir"
+    - family-names: "Xin"
+      given-names: "Ye"
+    - family-names: "AL-Bakhrani"
+      given-names: "Ali A."
+    - family-names: "Qian"
+      given-names: "Chen"
+    - family-names: "Ayoubi"
+      given-names: "Majid"
+  journal: "IEEE Access"      # target venue; confirm on acceptance
+  year: 0000                  # TODO: fill on acceptance
+  volume: "TODO"
+  doi: "10.0000/TODO"         # TODO: fill in DOI once assigned post-acceptance

@@ -1,0 +1,4 @@
+partition,dropped,cat,delta_label,delta_merit,R,R_ci_lo,R_ci_hi,oaxaca_unexpl,counterfactual,reversal_sign_ok,ci_excludes_zero,reversal_holds,counterfactual_negative,all_three_label_resident
+P0_canonical,none,CollegeTier;spec_group,-0.03561,0.06147,0.09708,0.0573,0.13862,0.06988,-0.06254,True,True,Y,Y,Y
+P1_drop_tier,CollegeTier,spec_group,-0.03561,0.07389,0.1095,0.0696,0.15043,0.07351,-0.06558,True,True,Y,Y,Y
+P2_drop_tier_spec,CollegeTier + spec_group,(numeric only),-0.03561,0.03883,0.07444,0.03342,0.11902,0.05805,-0.05441,True,True,Y,Y,Y

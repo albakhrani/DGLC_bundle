@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Cross-dataset validation of Merit-Reward Reversal and DGLC.}
+\label{tab:cross_dataset}
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+dataset & n & reversal\_mag & reversal\_ci\_lo & reversal\_ci\_hi & reversal & sel\_women\_baseline & sel\_women\_posthoc & sel\_women\_dglc & auroc\_baseline & auroc\_dglc & selfval\_before & selfval\_after \\
+\midrule
+AMEO 2015 (India, eng. grads) & 3998 & 0.097000 & 0.057000 & 0.139000 & True & 0.470000 & 0.435000 & 0.549000 & 0.741000 & 0.742000 & 0.070000 & 0.000000 \\
+Campus Recruitment (India, MBA) & 148 & 0.173000 & -0.054000 & 0.413000 & False & 0.417000 & 0.458000 & 0.458000 & 0.603000 & 0.647000 & 0.093000 & -0.000000 \\
+ACSIncome (US, OpenML) & 120000 & 0.220000 & 0.214000 & 0.227000 & True & 0.535000 & 0.455000 & 0.556000 & 0.774000 & 0.773000 & 0.427000 & -0.000000 \\
+\bottomrule
+\end{tabular}
+\end{table}

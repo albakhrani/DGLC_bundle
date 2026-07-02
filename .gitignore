@@ -1,0 +1,28 @@
+# Data — restricted, do not publish
+*.xlsx
+*.xls
+*.parquet
+code/data/
+outputs/processed*
+# Data CSVs are restricted, but aggregate result CSVs are not — ignore CSV broadly then un-ignore results below
+*.csv
+!outputs/tables/*.csv
+!outputs/gap/tables/*.csv
+!outputs/gap/cross/*.csv
+!data_dictionary.csv
+# IDE / runtime cruft
+.idea/
+__pycache__/
+**/__pycache__/
+catboost_info/
+**/catboost_info/
+*.tfevents*
+# Backups
+*.bak
+*.bak[0-9]*
+*.py.bak*
+# Obsolete builders (PII)
+code/build_docx.py
+code/build_docx_body.py
+# Archived orphan
+outputs_gap_ARCHIVED_orphan/

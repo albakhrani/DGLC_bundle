@@ -1,0 +1,18 @@
+feature,mean_abs_shap
+Quant,0.10360914
+English,0.061103635
+10percentage,0.054098364
+collegeGPA,0.046453405
+spec_group_computer engineering,0.045200665
+12percentage,0.04072858
+Logical,0.03155786
+CollegeTier_2,0.027335549
+is_female,0.024047334
+spec_group_information technology,0.018718218
+spec_group_computer science & engineering,0.0147410305
+age_at_grad,0.008351186
+spec_group_electronics and electrical engineering,0.007911069
+spec_group_electronics and communication engineering,0.0067530577
+spec_group_mechanical engineering,0.0026625842
+spec_group_electronics & telecommunications,0.0016905039
+spec_group_other,0.0016666545

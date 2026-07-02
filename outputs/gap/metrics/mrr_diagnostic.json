@@ -1,0 +1,40 @@
+{
+  "n_female": 957,
+  "n_male": 3041,
+  "baserate_female": 0.4336468129571578,
+  "baserate_male": 0.46925353502137457,
+  "selrate_female": 0.4702194357366771,
+  "selrate_male": 0.40874712265702073,
+  "delta_label_F_minus_M": -0.03560672206421678,
+  "delta_label_95ci": [
+    -0.07018558110559381,
+    -0.00039037198688628616
+  ],
+  "delta_merit_F_minus_M": 0.06147231307965639,
+  "delta_merit_95ci": [
+    0.026933665539954306,
+    0.09854357222453018
+  ],
+  "reversal_magnitude": 0.09707903514387317,
+  "reversal_magnitude_95ci": [
+    0.05729570306473323,
+    0.13862431135333647
+  ],
+  "merit_reward_reversal": true,
+  "triangulation": {
+    "oaxaca_unexplained_logpts": 0.06988297164817167,
+    "oaxaca_unexplained_95ci": {
+      "explained_ci": [
+        -0.056300327149047126,
+        -0.013950128100569633
+      ],
+      "unexplained_ci": [
+        0.03663884346928632,
+        0.10470909583093335
+      ]
+    },
+    "counterfactual_female_minus_male_logpts": -0.06254294514656067,
+    "all_three_agree": true
+  },
+  "decision": "LABEL-RESIDENT: model-side mitigation mis-targeted; apply label correction (gap06_dglc.py)"
+}

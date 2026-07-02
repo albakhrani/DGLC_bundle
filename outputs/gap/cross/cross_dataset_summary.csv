@@ -1,0 +1,4 @@
+dataset,n,n_female,n_male,delta_label,delta_merit,reversal_mag,reversal_ci_lo,reversal_ci_hi,reversal,oaxaca_unexplained,sel_women_baseline,sel_women_posthoc,sel_women_dglc,levelling_down_posthoc,dglc_change,auroc_baseline,auroc_dglc,selfval_before,selfval_after
+"AMEO 2015 (India, eng. grads)",3998,957,3041,-0.0356,0.0615,0.0971,0.0573,0.1386,True,0.0699,0.4702,0.4347,0.5486,-0.0355,0.0784,0.7413,0.7424,0.0699,0.0
+"Campus Recruitment (India, MBA)",148,48,100,-0.1967,-0.0233,0.1733,-0.0535,0.4134,False,0.0927,0.4167,0.4583,0.4583,0.0417,0.0417,0.6028,0.647,0.0927,-0.0
+"ACSIncome (US, OpenML)",120000,57703,62297,-0.1575,0.0628,0.2203,0.2141,0.2268,True,0.4269,0.5354,0.4555,0.5563,-0.0799,0.0209,0.7739,0.7734,0.4269,-0.0

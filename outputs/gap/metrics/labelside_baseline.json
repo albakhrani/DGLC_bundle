@@ -1,0 +1,104 @@
+{
+  "dataset": "AMEO 2015 (India, eng. grads)",
+  "seed": 42,
+  "merit_covariates": {
+    "numeric": [
+      "10percentage",
+      "12percentage",
+      "collegeGPA",
+      "English",
+      "Logical",
+      "Quant",
+      "age_at_grad"
+    ],
+    "categorical": [
+      "CollegeTier",
+      "spec_group"
+    ]
+  },
+  "audit_label": "realized (above-median salary)",
+  "methods": [
+    {
+      "method": "no_correction",
+      "sel_women": 0.47022,
+      "sel_men": 0.40875,
+      "sel_gap_M_minus_F": -0.06147,
+      "women_lift_vs_baseline": 0.0,
+      "levelling": "flat",
+      "auroc_realized": 0.74128,
+      "eo_diff_vs_realized": 0.09359,
+      "dp_diff_vs_realized": 0.06147
+    },
+    {
+      "method": "posthoc_eq_odds",
+      "sel_women": 0.43469,
+      "sel_men": 0.4173,
+      "sel_gap_M_minus_F": -0.01739,
+      "women_lift_vs_baseline": -0.03553,
+      "levelling": "down",
+      "auroc_realized": null,
+      "eo_diff_vs_realized": 0.05419,
+      "dp_diff_vs_realized": 0.01739
+    },
+    {
+      "method": "exp_gradient",
+      "sel_women": 0.45873,
+      "sel_men": 0.415,
+      "sel_gap_M_minus_F": -0.04373,
+      "women_lift_vs_baseline": -0.01149,
+      "levelling": "down",
+      "auroc_realized": 0.689,
+      "eo_diff_vs_realized": 0.06215,
+      "dp_diff_vs_realized": 0.04373
+    },
+    {
+      "method": "reweighing",
+      "sel_women": 0.47649,
+      "sel_men": 0.41138,
+      "sel_gap_M_minus_F": -0.06511,
+      "women_lift_vs_baseline": 0.00627,
+      "levelling": "up",
+      "auroc_realized": 0.74209,
+      "eo_diff_vs_realized": 0.09541,
+      "dp_diff_vs_realized": 0.06511
+    },
+    {
+      "method": "massaging",
+      "sel_women": 0.45455,
+      "sel_men": 0.41434,
+      "sel_gap_M_minus_F": -0.04021,
+      "women_lift_vs_baseline": -0.01567,
+      "levelling": "down",
+      "auroc_realized": 0.74644,
+      "eo_diff_vs_realized": 0.06768,
+      "dp_diff_vs_realized": 0.04021
+    },
+    {
+      "method": "dglc",
+      "sel_women": 0.54859,
+      "sel_men": 0.47846,
+      "sel_gap_M_minus_F": -0.07013,
+      "women_lift_vs_baseline": 0.07837,
+      "levelling": "up",
+      "auroc_realized": 0.7424,
+      "eo_diff_vs_realized": 0.09983,
+      "dp_diff_vs_realized": 0.07013
+    }
+  ],
+  "self_validation": {
+    "unexplained_before": 0.06988,
+    "dglc_after": 0.0,
+    "reweighing_after": 0.06988,
+    "massaging_after": 0.06988,
+    "note": "Reweighing and Massaging never modify the continuous wage outcome, so re-decomposing it returns the original residual; only DGLC builds a corrected continuous target whose residual collapses to ~0."
+  },
+  "massaging_meta": {
+    "M_relabelled_each_side": 26,
+    "promoted_women_0to1": 26,
+    "demoted_men_1to0": 26
+  },
+  "dglc_merit_implied_rate": {
+    "women": 0.54859,
+    "men": 0.47846
+  }
+}

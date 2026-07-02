@@ -1,0 +1,34 @@
+{
+  "n_raw_rows": 3998,
+  "n_raw_cols": 39,
+  "dropped_id_cols": [
+    "Unnamed: 0",
+    "ID",
+    "CollegeID",
+    "CollegeCityID"
+  ],
+  "salary_median_INR": 300000.0,
+  "target_balance": {
+    "0": 0.5393,
+    "1": 0.4607
+  },
+  "domain_module_missing_rate": {
+    "Domain": 0.0615,
+    "ComputerProgramming": 0.2171,
+    "ElectronicsAndSemicon": 0.7139,
+    "ComputerScience": 0.7744,
+    "MechanicalEngg": 0.9412,
+    "ElectricalEngg": 0.9597,
+    "TelecomEngg": 0.9065,
+    "CivilEngg": 0.9895
+  },
+  "leakage_cols_removed_from_predictors": [
+    "Salary",
+    "DOJ",
+    "DOL",
+    "Designation",
+    "JobCity"
+  ],
+  "n_model_rows": 3998,
+  "n_model_cols": 42
+}

@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\small
+\caption{Gender pay-gap evidence: three independent estimates of the residual (qualification-adjusted) gender effect on early-career salary, AMEO 2015.}\label{tab:gap_master}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrr}
+\toprule
+metric & value & approx\_interpretation \\
+\midrule
+Raw log-salary gap (female−male) & -0.035 & -3.4\% \\
+Oaxaca explained (qualifications) & 0.035 & +3.6\% \\
+Oaxaca UNEXPLAINED (residual) & -0.070 & -6.7\% \\
+ML counterfactual gender-flip & -0.062 & -6.1\% \\
+Fairness: demographic-parity ratio & 0.869 & PASS \\
+Fairness: equalized-odds diff & 0.094 &  \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

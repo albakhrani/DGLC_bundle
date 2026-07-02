@@ -1,0 +1,9 @@
+{
+  "cv_r2": 0.17733552145533926,
+  "cv_rmse": 0.4707760461472118,
+  "counterfactual_female_minus_male_logpts": -0.06254294514656067,
+  "counterfactual_approx_pct_INR": -6.062727955192715,
+  "gender_mean_shap_logpts": -9.836273966357112e-05,
+  "gender_importance_rank": 9,
+  "n_features": 17
+}

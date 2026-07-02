@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Merit-Reward Reversal diagnosis and Decomposition-Guided Label Correction remedy (AMEO 2015).}
+\label{tab:dglc_master}
+\begin{tabular}{llll}
+\toprule
+quantity & value & 95\% CI / note & interpretation \\
+\midrule
+Diagnosis: realized reward gap (F-M) & -0.036 & [-0.070, -0.000] & women penalised by the label \\
+Diagnosis: merit selection gap (F-M) & +0.061 & [+0.027, +0.099] & women favoured on merit \\
+Diagnosis: reversal magnitude & +0.097 & [+0.057, +0.139] & label-resident (reversal=True) \\
+Oaxaca unexplained (triangulation) & +0.070 & log pts & agrees \\
+Counterfactual gender effect (triangulation) & -0.063 & log pts & agrees \\
+Remedy A baseline: women selected & 0.470 & - & reference \\
+Remedy B post-hoc parity: women selected & 0.435 & - & levels DOWN (-0.036) \\
+Remedy C DGLC: women selected & 0.549 & - & rewards merit (+0.078) \\
+DGLC realized AUROC vs baseline & 0.742 & (baseline 0.741) & preserved \\
+Self-validation: Oaxaca unexplained after DGLC & +0.0000 & (before +0.0699) & collapses to 0 \\
+\bottomrule
+\end{tabular}
+\end{table}

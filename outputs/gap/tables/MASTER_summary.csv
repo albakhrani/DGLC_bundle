@@ -1,0 +1,7 @@
+metric,value,approx_interpretation
+Raw log-salary gap (female−male),-0.035,-3.4%
+Oaxaca explained (qualifications),0.0349,+3.6%
+Oaxaca UNEXPLAINED (residual),-0.0699,-6.7%
+ML counterfactual gender-flip,-0.0625,-6.1%
+Fairness: demographic-parity ratio,0.8693,PASS
+Fairness: equalized-odds diff,0.0936,

@@ -1,0 +1,7 @@
+method,sel_women,sel_men,sel_gap_M_minus_F,women_lift_vs_baseline,levelling,auroc_realized,eo_diff_vs_realized,dp_diff_vs_realized
+no_correction,0.47022,0.40875,-0.06147,0.0,flat,0.74128,0.09359,0.06147
+posthoc_eq_odds,0.43469,0.4173,-0.01739,-0.03553,down,,0.05419,0.01739
+exp_gradient,0.45873,0.415,-0.04373,-0.01149,down,0.689,0.06215,0.04373
+reweighing,0.47649,0.41138,-0.06511,0.00627,up,0.74209,0.09541,0.06511
+massaging,0.45455,0.41434,-0.04021,-0.01567,down,0.74644,0.06768,0.04021
+dglc,0.54859,0.47846,-0.07013,0.07837,up,0.7424,0.09983,0.07013

@@ -1,0 +1,81 @@
+{
+  "reference_structure": "neumark",
+  "realized_base_rate": {
+    "female": 0.4336468129571578,
+    "male": 0.46925353502137457
+  },
+  "corrected_base_rate_alpha1": {
+    "female": 0.5318704284221526,
+    "male": 0.4899704044722131
+  },
+  "regimes": [
+    {
+      "regime": "A_baseline_realized",
+      "sel_F": 0.4702194357366771,
+      "sel_M": 0.40874712265702073,
+      "DP_diff": 0.06147231307965639,
+      "EO_diff": 0.09359296195192435,
+      "auroc_realized": 0.7412813067187195,
+      "merit_align_F": -0.06165099268547547,
+      "merit_align_M": -0.08122328181519234
+    },
+    {
+      "regime": "B_posthoc_equal_opp",
+      "sel_F": 0.4346917450365726,
+      "sel_M": 0.417296941795462,
+      "DP_diff": 0.01739480324111059,
+      "EO_diff": 0.05418684298367146,
+      "auroc_realized": NaN,
+      "merit_align_F": -0.09717868338558,
+      "merit_align_M": -0.07267346267675107
+    },
+    {
+      "regime": "C_dglc_alpha1",
+      "sel_F": 0.54858934169279,
+      "sel_M": 0.47846103255508055,
+      "DP_diff": 0.0701283091377094,
+      "EO_diff": 0.07648291424887171,
+      "auroc_realized": 0.7423962922450591,
+      "merit_align_F": 0.016718913270637348,
+      "merit_align_M": -0.011509371917132527
+    }
+  ],
+  "levelling_down_womens_selection_change": {
+    "post_hoc_equal_opp": -0.03552769070010453,
+    "dglc": 0.07836990595611282
+  },
+  "auroc_preserved_dglc_vs_baseline": {
+    "baseline_realized": 0.7412813067187195,
+    "dglc_realized": 0.7423962922450591
+  },
+  "self_validation_oaxaca_unexplained": {
+    "before_logpts": 0.06988297164817167,
+    "after_logpts": 2.4629589254122374e-14
+  },
+  "reference_robustness": [
+    {
+      "reference": "male",
+      "corrected_base_F": 0.5266457680250783,
+      "corrected_base_M": 0.46925353502137457,
+      "corrected_base_gap_F_minus_M": 0.057392233003703774
+    },
+    {
+      "reference": "female",
+      "corrected_base_F": 0.5381400208986415,
+      "corrected_base_M": 0.48799736928641896,
+      "corrected_base_gap_F_minus_M": 0.05014265161222259
+    },
+    {
+      "reference": "pooled",
+      "corrected_base_F": 0.5287356321839081,
+      "corrected_base_M": 0.49095692206511016,
+      "corrected_base_gap_F_minus_M": 0.03777871011879791
+    },
+    {
+      "reference": "neumark",
+      "corrected_base_F": 0.5318704284221526,
+      "corrected_base_M": 0.4899704044722131,
+      "corrected_base_gap_F_minus_M": 0.041900023949939524
+    }
+  ]
+}
