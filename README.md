@@ -4,7 +4,7 @@ Code and reproducibility bundle for the paper:
 
 > **When Bias Lives in the Label: Diagnosing and Correcting Label-Resident
 > Group Gaps, with a Graduate-Employability Case Study**
-> Saleh Abdul Amir Mohammad, Ye Xin, Ali A. AL-Bakhrani, Chen Qian, Majid Ayoubi.
+> Saleh Abdul Amir Mohammad, Ye Xin, Ali A. AL-Bakhrani, Chen Qian.
 > (target venue: *IEEE Access* — citation finalized on acceptance; see `CITATION.cff`.)
 
 The paper introduces two methods and demonstrates them on a graduate-employability
