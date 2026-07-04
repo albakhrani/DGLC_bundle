@@ -33,8 +33,7 @@ preferred-citation:
       given-names: "Ali A."
     - family-names: "Qian"
       given-names: "Chen"
-    - family-names: "Ayoubi"
-      given-names: "Majid"
+  
   journal: "IEEE Access"      # target venue; confirm on acceptance
   year: 0000                  # TODO: fill on acceptance
   volume: "TODO"
