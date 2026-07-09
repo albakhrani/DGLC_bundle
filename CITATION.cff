@@ -14,8 +14,7 @@ authors:
     given-names: "Ali A."
   - family-names: "Qian"
     given-names: "Chen"
-  - family-names: "Ayoubi"
-    given-names: "Majid"
+
 repository-code: "https://github.com/ORG/REPO"   # TODO: set on release
 license: "TODO"                                    # TODO: supervisor to choose (see README)
 version: "0.1.0"
