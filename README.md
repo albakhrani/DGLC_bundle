@@ -169,7 +169,11 @@ providers' terms (see "Data & licensing" above).
 ## Citing
 
 See [`CITATION.cff`](CITATION.cff). Each tagged release of this repository is
-archived on Zenodo; the DOI badge for the archived version will appear here
-once minted:
+archived on Zenodo.
 
-<!-- DOI badge (added after the v1.0.0 release is archived on Zenodo) -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22857759.svg)](https://doi.org/10.5281/zenodo.22857759)
+
+This release (v1.0.0) is archived at DOI
+[10.5281/zenodo.22857759](https://doi.org/10.5281/zenodo.22857759); to cite
+all versions of this repository, use the concept DOI
+[10.5281/zenodo.22857758](https://doi.org/10.5281/zenodo.22857758).
