@@ -16,6 +16,7 @@ authors:
   - family-names: "AL-Bakhrani"
     given-names: "Ali A."
     affiliation: "School of Software, Dalian University of Technology, Dalian 116024, China"
+    orcid: "https://orcid.org/0000-0003-1360-8640"
 repository-code: "https://github.com/albakhrani/DGLC_bundle"
 license: MIT
 version: 1.0.0
@@ -38,6 +39,7 @@ preferred-citation:
     - family-names: "AL-Bakhrani"
       given-names: "Ali A."
       affiliation: "School of Software, Dalian University of Technology, Dalian 116024, China"
+      orcid: "https://orcid.org/0000-0003-1360-8640"
   journal: "IEEE Access"
   year: 2026
   # Accepted; manuscript ID Access-2026-33868. Article DOI/volume/pages added
