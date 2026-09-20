@@ -1,0 +1,4 @@
+Model,AUROC_default,AUROC_tuned,tuned_lo,tuned_hi,F1_tuned,MCC_tuned,delta
+RandomForest,0.7778,0.7712,0.7378,0.8039,0.684,0.4183,-0.0066
+XGBoost,0.7801,0.7821,0.7495,0.8128,0.6874,0.4421,0.002
+CatBoost,0.7856,0.7822,0.7495,0.8132,0.6808,0.4295,-0.0034

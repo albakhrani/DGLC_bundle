@@ -1,0 +1,10 @@
+Model,Method,Brier,ECE
+Deployed (RandomForest),raw,0.1919,0.0316
+Deployed (RandomForest),Platt,0.1908,0.0275
+Deployed (RandomForest),Isotonic,0.1911,0.017
+CatBoost,raw,0.1874,0.0459
+CatBoost,Platt,0.1876,0.0436
+CatBoost,Isotonic,0.1874,0.0277
+LogReg,raw,0.1897,0.0375
+LogReg,Platt,0.1885,0.0339
+LogReg,Isotonic,0.1893,0.0375

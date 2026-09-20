@@ -1,0 +1,3 @@
+Method,EO_diff,DP_diff,accuracy
+baseline (LogReg),0.166,0.085,0.706
+ExponentiatedGradient (EO),0.103,0.027,0.711

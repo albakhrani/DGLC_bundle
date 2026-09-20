@@ -4,12 +4,17 @@
 *.parquet
 code/data/
 outputs/processed*
+# Per-candidate arrays (individual-level labels/predictions): never publish
+*.npy
 # Data CSVs are restricted, but aggregate result CSVs are not — ignore CSV broadly then un-ignore results below
 *.csv
 !outputs/tables/*.csv
+!outputs/metrics/*.csv
 !outputs/gap/tables/*.csv
 !outputs/gap/cross/*.csv
 !data_dictionary.csv
+# Re-ignore per-candidate rows that the whitelists above would otherwise admit
+outputs/tables/recourse_per_candidate.csv
 # IDE / runtime cruft
 .idea/
 __pycache__/

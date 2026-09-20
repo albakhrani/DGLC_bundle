@@ -1,0 +1,64 @@
+{
+  "error": [
+    {
+      "Outcome": "TP",
+      "n": 235,
+      "% of test": 29.4,
+      "% female": 18.7,
+      "Mean p": 0.695,
+      "Quant": 602.0,
+      "English": 548.0,
+      "GPA": 74.8
+    },
+    {
+      "Outcome": "TN",
+      "n": 329,
+      "% of test": 41.1,
+      "% female": 22.2,
+      "Mean p": 0.302,
+      "Quant": 451.0,
+      "English": 465.0,
+      "GPA": 69.1
+    },
+    {
+      "Outcome": "FP",
+      "n": 102,
+      "% of test": 12.8,
+      "% female": 25.5,
+      "Mean p": 0.62,
+      "Quant": 570.0,
+      "English": 530.0,
+      "GPA": 72.8
+    },
+    {
+      "Outcome": "FN",
+      "n": 134,
+      "% of test": 16.8,
+      "% female": 28.4,
+      "Mean p": 0.369,
+      "Quant": 476.0,
+      "English": 483.0,
+      "GPA": 70.5
+    }
+  ],
+  "sensitivity": [
+    {
+      "Model": "RandomForest (deployed)",
+      "AUROC": 0.778,
+      "Brier": 0.192,
+      "ECE": 0.032,
+      "EO diff": 0.129,
+      "DP diff": 0.045,
+      "Feasible recourse": 0.518
+    },
+    {
+      "Model": "CatBoost",
+      "AUROC": 0.786,
+      "Brier": 0.187,
+      "ECE": 0.046,
+      "EO diff": 0.118,
+      "DP diff": 0.078,
+      "Feasible recourse": 0.617
+    }
+  ]
+}

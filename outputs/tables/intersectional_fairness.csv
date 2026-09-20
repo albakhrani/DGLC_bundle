@@ -1,0 +1,20 @@
+axis,level,gender,n,selection_rate,TPR,base_rate_high
+college tier,2,male,2795,0.401,0.629,0.44
+college tier,2,female,906,0.411,0.638,0.421
+college tier,1,male,246,0.902,0.934,0.805
+college tier,1,female,51,0.863,0.912,0.667
+degree,b.tech/b.e.,male,2811,0.457,0.678,0.48
+degree,b.tech/b.e.,female,889,0.444,0.67,0.44
+degree,mca,male,185,0.2,0.491,0.297
+degree,mca,female,58,0.241,0.333,0.31
+degree,m.tech./m.e.,male,44,0.5,0.696,0.523
+specialization,computer engineering,male,425,0.659,0.804,0.612
+specialization,computer engineering,female,175,0.686,0.848,0.6
+specialization,electronics and communication engineering,male,668,0.44,0.665,0.464
+specialization,electronics and communication engineering,female,212,0.42,0.663,0.406
+specialization,information technology,male,487,0.474,0.697,0.501
+specialization,information technology,female,173,0.422,0.619,0.486
+specialization,computer science & engineering,male,561,0.374,0.597,0.421
+specialization,computer science & engineering,female,183,0.295,0.509,0.301
+specialization,other,male,900,0.366,0.615,0.419
+specialization,other,female,214,0.374,0.565,0.397

@@ -1,0 +1,16 @@
+{
+  "unmitigated": {
+    "demographic_parity_diff": 0.04460054088308535,
+    "disparate_impact_ratio": 0.8966002441699257,
+    "equalized_odds_diff": 0.12891986062717764,
+    "accuracy": 0.705,
+    "balanced_accuracy": 0.7000987179245343
+  },
+  "mitigated_equalized_odds": {
+    "demographic_parity_diff": 0.043083212095788026,
+    "disparate_impact_ratio": 0.9080396265955422,
+    "equalized_odds_diff": 0.137630662020906,
+    "accuracy": 0.7075,
+    "balanced_accuracy": 0.7055376354227579
+  }
+}

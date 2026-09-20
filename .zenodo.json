@@ -1,0 +1,16 @@
+{
+  "upload_type": "software",
+  "title": "DGLC_bundle: code and aggregate outputs for 'When Bias Lives in the Label: Diagnosing and Correcting Label-Resident Group Gaps, with a Graduate-Employability Case Study'",
+  "description": "Code, configuration files, fixed seeds, and aggregate outputs that reproduce all results of the IEEE Access article (Access-2026-33868). Raw datasets are not redistributed; the README documents how to obtain AMEO 2015, Campus Recruitment (Kaggle), and ACSIncome (folktables) from their original sources.",
+  "creators": [
+    {"name": "Mohammad, Saleh Abdul Amir", "affiliation": "School of Economics and Management, Dalian University of Technology", "orcid": "0009-0001-7758-4513"},
+    {"name": "Ye, Xin", "affiliation": "School of Economics and Management, Dalian University of Technology"},
+    {"name": "Qian, Chen", "affiliation": "School of Economics and Management, Dalian University of Technology"},
+    {"name": "AL-Bakhrani, Ali A.", "affiliation": "School of Software, Dalian University of Technology", "orcid": "0000-0003-1360-8640"}
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["algorithmic fairness", "label bias", "Oaxaca-Blinder decomposition", "employability prediction", "explainable AI", "counterfactual explanation"],
+  "version": "1.0.0",
+  "language": "eng"
+}

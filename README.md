@@ -4,8 +4,8 @@ Code and reproducibility bundle for the paper:
 
 > **When Bias Lives in the Label: Diagnosing and Correcting Label-Resident
 > Group Gaps, with a Graduate-Employability Case Study**
-> Saleh Abdul Amir Mohammad, Ye Xin, Ali A. AL-Bakhrani, Chen Qian.
-> (target venue: *IEEE Access* — citation finalized on acceptance; see `CITATION.cff`.)
+> Saleh Abdul Amir Mohammad, Xin Ye, Chen Qian, and Ali A. AL-Bakhrani.
+> *IEEE Access*, accepted (manuscript Access-2026-33868); see `CITATION.cff`.
 
 The paper introduces two methods and demonstrates them on a graduate-employability
 case study (AMEO 2015), with cross-dataset validation on ACSIncome and a Kaggle
@@ -44,7 +44,9 @@ DGLC_bundle/
 ├── AMEO_2015_train.xlsx      raw data (NOT redistributed — see "Data & licensing")
 ├── campus_recruitment.csv    raw data (NOT redistributed — see "Data & licensing")
 ├── requirements.txt
+├── LICENSE                   MIT
 ├── CITATION.cff
+├── .zenodo.json              Zenodo archive metadata
 └── README.md
 ```
 
@@ -125,6 +127,19 @@ calibration, ablation, tuning, and the reviewer/sensitivity analyses. Its
 figures and tables feed the case-study sections of the paper; the **MRR/DGLC
 contribution lives entirely in the `gap*` sub-pipeline** above.
 
+The **aggregate metrics behind the paper's model-panel and audit tables**
+(17-model panel with AUROC/CI/F1/MCC, tuned-vs-default, feature-group ablation,
+calibration, label-threshold sensitivity, fairness and threshold tables) are
+committed under `outputs/metrics/` and `outputs/tables/` so every reported
+number can be checked without re-running the pipeline; `run_all.sh` regenerates
+them at the same paths.
+
+Note: `outputs/tables/label_sensitivity.csv` is the original-run file with the
+older column layout (`label, pos_rate, tree_AUROC, tree_CI, deep_AUROC,
+deep_CI, tree_beats_deep, EO_gap`); a fresh `run_all.sh` writes the current
+layout (`label, pos_rate, best_tree, tree_AUROC, best_deep, deep_AUROC,
+AUROC_diff, EO_gap`).
+
 ## Data & licensing
 
 The raw datasets have **different redistribution terms** and are therefore not
@@ -139,17 +154,22 @@ committed to this repository. Obtain each from its source:
 Derived files (`outputs/processed*.{csv,parquet}`) inherit the source data's
 terms and are git-ignored for the same reason.
 
-> **Action for the maintainer:** confirm each dataset's license before any
-> public release. The conservative default encoded in `.gitignore` is to ship
-> **no** raw or derived data and to document download steps instead.
+> **Policy:** this repository ships **no** raw or individual-level derived data
+> (enforced by `.gitignore`); each dataset is obtained from its original source
+> as documented above. Only code, configuration, fixed seeds, and aggregate
+> outputs (summary tables, metrics, figures) are published.
 
 ## License
 
-**No `LICENSE` file is present.** A license has intentionally **not** been chosen
-here — this is a decision for the project lead / supervisor. Add a `LICENSE`
-file and update the `license:` field in `CITATION.cff` before public release.
+This repository — code, configuration, and the aggregate outputs it contains —
+is released under the **MIT License** (see [`LICENSE`](LICENSE)). The raw
+datasets are **not** part of this repository and remain under their original
+providers' terms (see "Data & licensing" above).
 
 ## Citing
 
-See `CITATION.cff`. The DOI and full journal reference are placeholders to be
-filled in once the paper is accepted.
+See [`CITATION.cff`](CITATION.cff). Each tagged release of this repository is
+archived on Zenodo; the DOI badge for the archived version will appear here
+once minted:
+
+<!-- DOI badge (added after the v1.0.0 release is archived on Zenodo) -->

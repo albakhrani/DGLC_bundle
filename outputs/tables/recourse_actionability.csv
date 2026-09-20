@@ -1,0 +1,16 @@
+feature,class,rationale,allowed_change,unit_SD
+English,mutable,AMCAT section re-assessable through study/practice,"increase only, <= +2.5 SD",104.94
+Logical,mutable,AMCAT section re-assessable through study/practice,"increase only, <= +2.5 SD",86.78
+Quant,mutable,AMCAT section re-assessable through study/practice,"increase only, <= +2.5 SD",122.3
+Domain,mutable,AMCAT section re-assessable through study/practice,"increase only, <= +2.5 SD",0.27
+ComputerProgramming,mutable,AMCAT section re-assessable through study/practice,"increase only, <= +2.5 SD",97.16
+collegeGPA,semi-mutable,historical GPA fixed; proxies trainable skill,"increase only, <= +1.5 SD",8.17
+Gender,immutable,"protected, historical, or institutional",no change,
+GraduationYear,immutable,"protected, historical, or institutional",no change,
+CollegeTier,immutable,"protected, historical, or institutional",no change,
+CollegeState,immutable,"protected, historical, or institutional",no change,
+Specialization,immutable,"protected, historical, or institutional",no change,
+Degree,immutable,"protected, historical, or institutional",no change,
+10percentage,immutable,"protected, historical, or institutional",no change,
+12percentage,immutable,"protected, historical, or institutional",no change,
+age_at_grad,immutable,"protected, historical, or institutional",no change,

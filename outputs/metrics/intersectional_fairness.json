@@ -1,0 +1,17 @@
+{
+  "college tier": {
+    "max_sel_gap_m_minus_f": 0.039000000000000035,
+    "min_sel_gap": -0.009999999999999953,
+    "levels_assessed": 2
+  },
+  "degree": {
+    "max_sel_gap_m_minus_f": 0.013000000000000012,
+    "min_sel_gap": -0.04099999999999998,
+    "levels_assessed": 2
+  },
+  "specialization": {
+    "max_sel_gap_m_minus_f": 0.07900000000000001,
+    "min_sel_gap": -0.027000000000000024,
+    "levels_assessed": 5
+  }
+}

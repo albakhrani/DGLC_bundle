@@ -1,0 +1,33 @@
+{
+  "n_samples": 3998,
+  "n_features_model": 42,
+  "salary_median_INR": 300000.0,
+  "target_balance": {
+    "0": 0.5393,
+    "1": 0.4607
+  },
+  "best_model_cv": "EBM",
+  "best_model_test": "CatBoost",
+  "best_test_AUROC": 0.7856123340815775,
+  "best_test_AUROC_CI": [
+    0.75297937724085,
+    0.8168156166322391
+  ],
+  "deberta_test_AUROC": 0.7694905023296172,
+  "friedman_p": 4.4732213924764165e-25,
+  "nemenyi_CD": 4.711247013501014,
+  "fairness_unmitigated": {
+    "demographic_parity_diff": 0.04460054088308535,
+    "disparate_impact_ratio": 0.8966002441699257,
+    "equalized_odds_diff": 0.12891986062717764,
+    "accuracy": 0.705,
+    "balanced_accuracy": 0.7000987179245343
+  },
+  "fairness_mitigated": {
+    "demographic_parity_diff": 0.043083212095788026,
+    "disparate_impact_ratio": 0.9080396265955422,
+    "equalized_odds_diff": 0.137630662020906,
+    "accuracy": 0.7075,
+    "balanced_accuracy": 0.7055376354227579
+  }
+}

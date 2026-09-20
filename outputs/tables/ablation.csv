@@ -1,0 +1,6 @@
+features_added,cumulative_groups,n_features,test_AUROC,CI95,delta
++ cognitive,cognitive,3,0.698,"[0.662, 0.733]",0.0
++ technical,cognitive + technical,19,0.729,"[0.693, 0.763]",0.031
++ academic,cognitive + technical + academic,30,0.763,"[0.728, 0.796]",0.034
++ personality,cognitive + technical + academic + personality,35,0.771,"[0.737, 0.804]",0.008
++ demographic,cognitive + technical + academic + personality + demographic,38,0.781,"[0.748, 0.813]",0.01
