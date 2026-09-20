@@ -196,7 +196,18 @@ def main():
     err = [[results[n]["AUROC"] - results[n]["AUROC_lo"] for n in order],
            [results[n]["AUROC_hi"] - results[n]["AUROC"] for n in order]]
     plt.bar(order, aucs, yerr=err, color="#6a51a3", capsize=4, alpha=0.85)
-    plt.axhline(0.786, ls="--", c="k", lw=0.9, label="best GBDT (CatBoost, 0.786)")
+    # Reference line: CatBoost held-out test AUROC from the s04 panel artifact
+    # (run_all.sh runs s04 before s09, so the file exists in a full run).
+    s1_path = f"{C.MET_DIR}/system1_test.csv"
+    try:
+        gbdt_auc = float(pd.read_csv(s1_path, index_col="Model").loc["CatBoost", "AUROC"])
+    except (FileNotFoundError, KeyError) as e:
+        print(f"WARNING: CatBoost test AUROC unavailable from {s1_path} ({e!r}); "
+              "omitting best-GBDT reference line - run s04_system1_models.py first.")
+        gbdt_auc = None
+    if gbdt_auc is not None:
+        plt.axhline(gbdt_auc, ls="--", c="k", lw=0.9,
+                    label=f"best GBDT (CatBoost, {gbdt_auc:.3f})")
     plt.ylim(0.70, 0.80); plt.ylabel("Test AUROC")
     plt.xticks(rotation=15); plt.legend(fontsize=8)
     plt.title("Deep-learning baselines vs.\\ best boosted tree")
