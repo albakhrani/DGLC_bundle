@@ -134,6 +134,12 @@ committed under `outputs/metrics/` and `outputs/tables/` so every reported
 number can be checked without re-running the pipeline; `run_all.sh` regenerates
 them at the same paths.
 
+Note: `outputs/tables/label_sensitivity.csv` is the original-run file with the
+older column layout (`label, pos_rate, tree_AUROC, tree_CI, deep_AUROC,
+deep_CI, tree_beats_deep, EO_gap`); a fresh `run_all.sh` writes the current
+layout (`label, pos_rate, best_tree, tree_AUROC, best_deep, deep_AUROC,
+AUROC_diff, EO_gap`).
+
 ## Data & licensing
 
 The raw datasets have **different redistribution terms** and are therefore not
