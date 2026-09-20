@@ -1,0 +1,14 @@
+{
+  "population": "test",
+  "n_rejected": 463,
+  "feasibility_rate": 0.518,
+  "feas_CI": [
+    0.473,
+    0.562
+  ],
+  "median_cost_SD": 1.0,
+  "cost_IQR_SD": [
+    0.5,
+    2.0
+  ]
+}

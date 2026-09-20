@@ -1,0 +1,3 @@
+Model,AUROC,Brier,ECE,EO diff,DP diff,Feasible recourse
+RandomForest (deployed),0.778,0.192,0.032,0.129,0.045,0.518
+CatBoost,0.786,0.187,0.046,0.118,0.078,0.617

@@ -1,0 +1,2 @@
+population,n_rejected,feasibility_rate,feas_CI,median_cost_SD,cost_IQR_SD
+test,463,0.518,"[0.473, 0.562]",1.0,"[0.5, 2.0]"

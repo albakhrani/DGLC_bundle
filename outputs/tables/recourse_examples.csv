@@ -1,0 +1,4 @@
+band,p_orig,recommended_change,cost_SD,p_after,feasible,difficulty,interpretation
+near-boundary,0.427,+0.75 SD Quant,0.75,0.538,yes,easy,"small, single-feature improvement (about a coaching cycle)"
+moderate,0.364,+1.00 SD ComputerProgramming & collegeGPA,2.0,0.515,yes,moderate,"moderate, multi-feature improvement over a term"
+far,0.173,no change within budget,,,no (within 3 SD),infeasible,no feasible recourse found within the predefined 3-SD budget

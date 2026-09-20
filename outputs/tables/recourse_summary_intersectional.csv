@@ -1,0 +1,10 @@
+axis,level,gender,n,feasibility_rate,median_cost_SD,indicative
+degree,b.tech/b.e.,male,312,0.51,1.0,False
+degree,b.tech/b.e.,female,99,0.636,1.0,False
+degree,mca,male,32,0.25,1.12,False
+degree,mca,female,12,0.5,1.0,True
+degree,m.tech./m.e.,male,8,0.5,0.38,True
+college_tier,2,male,341,0.475,1.12,False
+college_tier,2,female,108,0.62,1.0,False
+college_tier,1,male,11,0.818,0.5,True
+college_tier,1,female,3,0.667,0.88,True

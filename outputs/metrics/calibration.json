@@ -1,0 +1,29 @@
+[
+  {
+    "model": "Deployed (RandomForest)",
+    "Brier_raw": 0.1919,
+    "ECE_raw": 0.0316,
+    "Brier_Platt": 0.1908,
+    "ECE_Platt": 0.0275,
+    "Brier_Isotonic": 0.1911,
+    "ECE_Isotonic": 0.017
+  },
+  {
+    "model": "CatBoost",
+    "Brier_raw": 0.1874,
+    "ECE_raw": 0.0459,
+    "Brier_Platt": 0.1876,
+    "ECE_Platt": 0.0436,
+    "Brier_Isotonic": 0.1874,
+    "ECE_Isotonic": 0.0277
+  },
+  {
+    "model": "LogReg",
+    "Brier_raw": 0.1897,
+    "ECE_raw": 0.0375,
+    "Brier_Platt": 0.1885,
+    "ECE_Platt": 0.0339,
+    "Brier_Isotonic": 0.1893,
+    "ECE_Isotonic": 0.0375
+  }
+]

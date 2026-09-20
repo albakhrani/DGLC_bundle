@@ -1,0 +1,32 @@
+{
+  "RandomForest": {
+    "cv_auroc": 0.783384857553928,
+    "params": {
+      "n_estimators": 800,
+      "max_depth": 12,
+      "min_samples_leaf": 8,
+      "max_features": 0.30337910648539945
+    }
+  },
+  "XGBoost": {
+    "cv_auroc": 0.7881110425993045,
+    "params": {
+      "n_estimators": 800,
+      "learning_rate": 0.01499165890936452,
+      "max_depth": 2,
+      "subsample": 0.7828875634127218,
+      "colsample_bytree": 0.9450588707370331,
+      "reg_lambda": 2.5652320458733975,
+      "min_child_weight": 2
+    }
+  },
+  "CatBoost": {
+    "cv_auroc": 0.789169673666568,
+    "params": {
+      "iterations": 200,
+      "learning_rate": 0.037035354010418096,
+      "depth": 5,
+      "l2_leaf_reg": 5.668361434360264
+    }
+  }
+}
