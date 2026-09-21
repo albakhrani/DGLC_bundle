@@ -19,7 +19,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-1360-8640"
 repository-code: "https://github.com/albakhrani/DGLC_bundle"
 license: MIT
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-09-20"
 doi: 10.5281/zenodo.22857759
 preferred-citation:

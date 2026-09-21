@@ -11,6 +11,6 @@
   "access_right": "open",
   "license": "MIT",
   "keywords": ["algorithmic fairness", "label bias", "Oaxaca-Blinder decomposition", "employability prediction", "explainable AI", "counterfactual explanation"],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "eng"
 }

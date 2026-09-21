@@ -54,6 +54,10 @@ DGLC_bundle/
 provenance (see its `README_ARCHIVED.txt`). It is **not** canonical and is
 excluded from release by `.gitignore`.
 
+outputs/gap/tables/dglc_foldwise_check.csv re-runs the DGLC frontier with the
+decomposition coefficients and the median threshold estimated on the training
+folds only (code/gap06_foldwise_check.py).
+
 ## Environment
 
 ```bash
