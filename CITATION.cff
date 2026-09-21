@@ -20,8 +20,8 @@ authors:
 repository-code: "https://github.com/albakhrani/DGLC_bundle"
 license: MIT
 version: 1.0.1
-date-released: "2026-09-20"
-doi: 10.5281/zenodo.22857759
+date-released: "2026-09-21"
+doi: 10.5281/zenodo.22867286
 preferred-citation:
   type: article
   title: "When Bias Lives in the Label: Diagnosing and Correcting Label-Resident Group Gaps, with a Graduate-Employability Case Study"
