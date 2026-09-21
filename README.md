@@ -175,9 +175,9 @@ providers' terms (see "Data & licensing" above).
 See [`CITATION.cff`](CITATION.cff). Each tagged release of this repository is
 archived on Zenodo.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22857759.svg)](https://doi.org/10.5281/zenodo.22857759)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22867286.svg)](https://doi.org/10.5281/zenodo.22867286)
 
-This release (v1.0.0) is archived at DOI
-[10.5281/zenodo.22857759](https://doi.org/10.5281/zenodo.22857759); to cite
+This release (v1.0.1) is archived at DOI
+[10.5281/zenodo.22867286](https://doi.org/10.5281/zenodo.22867286); to cite
 all versions of this repository, use the concept DOI
 [10.5281/zenodo.22857758](https://doi.org/10.5281/zenodo.22857758).
